@@ -11,8 +11,8 @@
     <!-- NEED TO ADD LOGGER DATA CODE -->
     
          <bean id="myLoggerConfig" class="com.luv2code.springdemo.MyLoggerConfig" init-method="initLogger">
-    	<property name="rootLoggerLevel" value="FINEST" />
-    	<property name="printedLoggerLevel" value="FINEST"/>
+    	<property name="rootLoggerLevel" value="FINE" />
+    	<property name="printedLoggerLevel" value="FINE"/>
     </bean>
     
 	<!-- add entry to enable component scanning -->
