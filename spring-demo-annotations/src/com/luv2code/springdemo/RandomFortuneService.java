@@ -2,16 +2,20 @@ package com.luv2code.springdemo;
 
 import java.util.Random;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 @Component
 public class RandomFortuneService implements FortuneService {
 
 	// create an array of strings
+	
+	@Value("${foo.fortunes}")
 	private String[] data = {
-		"Beware of the wolf in sheep's clothing",
-		"Diligence is the mother of good luck",
-		"The journey is the reward"
+			/*
+			 * "Beware of the wolf in sheep's clothing",
+			 * "Diligence is the mother of good luck", "The journey is the reward"
+			 */
 	};
 	
 	// create random number generator
