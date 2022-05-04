@@ -11,13 +11,13 @@ import org.springframework.stereotype.Component;
 public class RandomFortuneService implements FortuneService {
 
 	// create an array of strings
-	// Activity #6 bean scope with annotations
+
 	
-	  @PostConstruct
-	  @Value("${foo.fortunes}") 
-	  public void getTextFile() { 
-		  String data = ("${foo.fortunes}");
-	  System.out.println(data); }
+
+//	  @Value("${foo.fortunes}") 
+//	  public void getTextFile() { 
+//		  String data = ("${foo.fortunes}");
+//	  System.out.println(data); }
 	 
 	
 	@Value("${foo.fortunes}")
