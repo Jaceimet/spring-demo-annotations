@@ -15,8 +15,6 @@ import org.springframework.stereotype.Component;
 @Component
 public class FileFortuneService implements FortuneService {
 	
-	//*issue finding txt file and reading it, must fix!!!
-	
 	private String fileName = "fortune-data";
 	private List<String> theFortunes;
 	
