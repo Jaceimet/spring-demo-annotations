@@ -17,7 +17,7 @@ public class FileFortuneService implements FortuneService {
 	
 	//*issue finding txt file and reading it, must fix!!!
 	
-	private String fileName = "fortune-data.txt";
+	private String fileName = "fortune-data";
 	private List<String> theFortunes;
 	
 	// create random number generator
